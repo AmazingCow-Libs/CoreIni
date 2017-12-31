@@ -45,7 +45,6 @@ Ini::Ini(
     m_hierarchyDelimiter(hierarchyDelimiter),
     m_keyValueDelimiter ( keyValueDelimiter)
 {
-    auto v = CoreFS::IsFile(filename);
     COREASSERT_THROW_IF(
         !CoreFS::IsFile(filename),
         std::invalid_argument,
