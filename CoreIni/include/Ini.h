@@ -8,6 +8,7 @@
 // CoreIni
 #include "CoreIni_Utils.h"
 
+
 NS_COREINI_BEGIN
 
 class Ini
@@ -46,7 +47,7 @@ class Ini
     //   The first enum must be a "naked" enum type because we want that
     //   bitwise logic easily implemented, but that enum is the only one
     //   that needs to be that way. ALl other enums could be better written
-    //   as the new enum class types, but in sake of the concistency of
+    //   as the new enum class types, but in sake of the consistency of
     //   the library, all the enums of this class will be "naked ones."
     //--------------------------------------------------------------------------
     enum {
